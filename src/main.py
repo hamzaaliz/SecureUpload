@@ -7,10 +7,10 @@ from storage import save_hmac, retrieve_data
 
 def main():
     # These are absolute paths to the dataset, keys and output directory
-    dataset_path = "/Users/HamzaAli/Desktop/InfoSec_Project/data/oldbookings-daywise.csv"
-    public_key_path = "/Users/HamzaAli/Desktop/InfoSec_Project/keys/public.pem"
-    private_key_path = "/Users/HamzaAli/Desktop/InfoSec_Project/keys/private.pem"
-    output_dir = "/Users/HamzaAli/Desktop/InfoSec_Project/output"
+    dataset_path = "data/oldbookings-daywise.csv"
+    public_key_path = "keys/public.pem"
+    private_key_path = "keys/private.pem"
+    output_dir = "output"
 
     # Generate an RSA Key Pair
     private_key, public_key = generate_rsa_keypair()
